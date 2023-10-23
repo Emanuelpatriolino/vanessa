@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="dist/style.css"/>
+
+    <link rel="shortcut icon" href="vf-icon.png" type="image/x-icon">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Agenda</title>
+</head>
+
+<body class="corpo-agenda">
+
+    <img src="vf-logo.png" alt="logo vf" class="logo-agenda">
+
+    <div class="div-agenda">
+ 
+        <form  class="form" id="form">
+
+            <div class="form-inputs-info">
+                <h1 style="margin-top: -30px;">agendamento</h1>
+    
+                <div class="form-inputs">
+                    <h5>Nome</h5>
+                    <input type="text" required placeholder=" - Digite seu nome" class="inputs" id="nome">
+                </div>
+    
+                <div class="form-inputs">
+                    <h5>Whatsapp</h5>
+                    <input type="text" required placeholder=" - (85) 9 9999.9999" class="inputs" id="telefone">
+                </div>
+    
+                <div class="form-inputs">
+                    <h5>Endereço</h5>
+                    <input type="text" required placeholder=" - Rua João gomes 123" class="inputs" id="rua">
+                </div>
+    
+                <div class="form-inputs">
+                    <h5>Bairro</h5>
+                    <input type="text" required placeholder=" - Aldeota" class="inputs" id="bairro">
+                </div>
+    
+                <div class="form-inputs">
+                    <h5>Procedimento</h5>
+                    <select type="text" placeholder=" - Pix - dinheiro - cartão" class="inputs" required id="procedimento">
+                        <option value="Escova inteligente">- Escova inteligente</option>
+                        <option value="Progressiva">- Progressiva</option>
+                        <option value="Química">- Química</option>
+                    </select>
+                </div>
+    
+                <!--<div class="form-inputs">
+                    <h5>Forma de pagamento</h5>
+                    <select type="text" required placeholder=" - Pix - dinheiro - cartão" class="inputs" id="pagamento">
+                        <option value="Pix">- pix</option>
+                        <option value="Dinheiro">- Dinheiro</option>
+                        <option value="Cartão">- Cartão</option>
+                    </select>
+                </div> -->
+
+                <input type="submit" value="Agendar" class="button-enviar" >
+                
+                <a href="index.html"><h5 class="voltar">voltar</h5></a>
+            </div>
+
+            
+
+        </form>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
