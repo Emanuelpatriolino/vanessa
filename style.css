@@ -183,7 +183,7 @@ i {
     min-height: 60vh;
   }
   .hero h1 {
-    font-size: 74px;
+    font-size: 55px;
     padding: 0 14px;
     width: 100%;
   }
@@ -193,7 +193,7 @@ i {
 }
 @media screen and (max-width: 430px) {
   .hero h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
 
   .bg-home{
