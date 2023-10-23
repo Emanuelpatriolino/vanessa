@@ -9,12 +9,11 @@ var tel = document.getElementById("telefone").value;
 var rua = document.getElementById("rua").value;
 var bairro = document.getElementById("bairro").value;
 var procedimento = document.getElementById("procedimento").value;
-var pagamento = document.getElementById("pagamento").value;
 var endereço = rua +" "+ bairro;
 
 alert("Olá " + nome + " suas informações foram coletadas, agora é só clicar e enviar.")
 
-const mensagem = `Olá Vanessa, gostaria de saber os hórarios disponíveis para fazer ${ procedimento}. Meu nome é ${ nome}, moro na ${ endereço}, meu whatsApp é ${ tel}, vou pagar no ${ pagamento}, fico no aguardo! :) `;
+const mensagem = `Olá Vanessa, gostaria de saber os hórarios disponíveis para fazer ${ procedimento}. Meu nome é ${ nome}, moro na ${ endereço}, meu whatsApp é ${ tel}, fico no aguardo! :) `;
 
  const phonesalao = "+5585998413315";
 
@@ -27,7 +26,6 @@ var tel = document.getElementById("telefone").value="";
 var rua = document.getElementById("rua").value="";
 var bairro = document.getElementById("bairro").value="";
 var procedimento = document.getElementById("procedimento").value="";
-var pagamento = document.getElementById("pagamento").value="";
 
 }
 );
