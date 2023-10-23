@@ -191,7 +191,7 @@ i {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
   .hero h1 {
     font-size: 55px;
   }
