@@ -762,7 +762,7 @@ a {
   
   /* AGENDA NO CELULAR PEQUENO*/
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 430px) {
   
     *{
       margin: 0;
@@ -784,7 +784,7 @@ a {
       content: "";
       display: block;
       position: absolute;
-      background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("fundo.png");
+      background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/fundo.png");
       left: 0;
       top: 0;
       width: 100%;
